@@ -1,0 +1,197 @@
+/* NORMALIZO ESTILOS */
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+body{
+    background-color: blue;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    position: fixed;
+    border-style: double;
+    border-color: rgba(67, 31, 228, 0.534);
+    border-width: 6px;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+nav ul{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.itemLista {
+    flex: auto;
+    text-align: center;
+    background-color: blue;
+    font-size: 1.5rem;
+    border-radius: 60px;
+    text-decoration: none;
+}
+
+.itemLista a:hover{
+    color:red;
+}
+
+a{
+    color: white;
+}
+
+.logo{
+    width: 10rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+main{
+    padding-top: 180px;
+}
+.titulo{
+    background-color: black;
+    color: white;
+    height: 100%;
+    text-align: center;
+}
+
+.imagenIntro{
+    height: 250px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.textoIntro{
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 35px;
+}
+.seccionIntro{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxProductos{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    gap: 30px;
+}
+
+.producto{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-items: center;
+    align-items: center;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 5px;
+    border-style: double;
+    padding-bottom: 10px;
+}
+.imgProducto{
+    padding-top: 10px;
+    height: 150px;
+}
+/* .nombreProducto{
+
+} */
+button{
+    background-color: skyblue;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    height: auto;
+}
+.precio{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.redSocial{
+    padding-inline: 50px;
+    background-color: white;
+    border-radius: 30px;
+    border-style: double;
+    border-color: blue;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    background-color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mensajeLocales{
+    padding: 50px 50px 50px 50px;
+    font-size: 70px;
+    align-self: center;
+}
+.mapbox{
+    display: flex;
+    padding: 50px 50px 50px 50px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.datosMapbox{
+    border-color: black;
+    border-style: double;
+    border-width: 5px;
+    background-color: white;
+}
+
+.mapa{
+    width: 600px;
+}
+
+.seccionContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto{
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 5px double black;
+    margin: 20px 20px ;
+}
+.imgContacto{
+    width: 60px;
+    padding-left: 20px;
+}
+.contacto p{
+    font-size: 30px;
+}
+.seccionAbout{
+    margin: 50px 50px;
+}
