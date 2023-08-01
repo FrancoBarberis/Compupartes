@@ -65,7 +65,7 @@ main{
 }
 .titulo{
     background-color: black;
-    color: white;
+    color: rgb(146, 136, 248);
     height: 100%;
     text-align: center;
 }
@@ -76,6 +76,7 @@ main{
 
 .textoIntro{
     font-size: 35px;
+    color: rgb(206, 253, 255);
 }
 .seccionIntro{
     height: auto;
@@ -130,17 +131,19 @@ button{
 }
 
 .redSocial{
-    padding-inline: 50px;
+    padding-inline: 35px;
     background-color: white;
     border-radius: 30px;
     border-style: double;
-    border-color: blue;
+    border-color: rgb(146, 136, 248);
+    color: black;
 }
 footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
     gap: 30px;
-    background-color: black;
+    background-color: rgb(146, 136, 248);
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -149,6 +152,7 @@ footer{
     padding: 50px 50px 50px 50px;
     font-size: 70px;
     align-self: center;
+    color: rgb(206, 253, 255);
 }
 .mapbox{
     display: flex;
@@ -157,12 +161,23 @@ footer{
     justify-content: space-around;
 }
 
+.mapbox h3{
+    color: rgb(206, 253, 255);
+}
+
 .datosMapbox{
-    border-color: black;
+    border-color: rgb(206, 253, 255);
     border-style: double;
     border-width: 5px;
-    background-color: white;
+    background-color: rgb(128, 98, 214);
+    margin: 50px;
 }
+
+.datosMapbox h3{
+    color: rgb(206, 253, 255);
+    padding: 10px 10px 10px 10px;
+}
+
 
 .mapa{
     width: 600px;
@@ -179,7 +194,8 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border: 5px double black;
+    border: 5px double rgb(146, 136, 248);
+    border-radius: 30px;
     margin: 20px 20px ;
 }
 .contacto p{
@@ -200,6 +216,10 @@ footer{
     color: rgb(206, 253, 255);
 }
 
-h1{
-    width: 100%;
+.logoNav{
+    height: 150px;
+}
+
+.nav{
+    background-color: navy;
 }
