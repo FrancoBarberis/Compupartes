@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: blue;
+    background-color: rgb(1, 22, 39);
 }
 
 header{
@@ -60,7 +60,8 @@ a{
 }
 
 main{
-    padding-top: 180px;
+    padding-top: 100px;
+    width: 100%;
 }
 .titulo{
     background-color: black;
@@ -71,20 +72,13 @@ main{
 
 .imagenIntro{
     height: 250px;
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 .textoIntro{
-    padding-left: 50px;
-    padding-right: 50px;
     font-size: 35px;
 }
 .seccionIntro{
-    padding-top: 100px;
-    padding-bottom: 100px;
     height: auto;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -120,9 +114,9 @@ main{
     width: 75%;
     height: 75%;
 }
-/* .nombreProducto{
-
-} */
+.nombreProducto{
+    color: white;
+}
 button{
     background-color: skyblue;
     padding-bottom: 20px;
@@ -132,6 +126,7 @@ button{
 .precio{
     padding-bottom: 10px;
     padding-top: 10px;
+    color: white;
 }
 
 .redSocial{
@@ -187,6 +182,9 @@ footer{
     border: 5px double black;
     margin: 20px 20px ;
 }
+.contacto p{
+    color: white;
+}
 .imgContacto{
     width: 60px;
     padding-left: 20px;
@@ -196,4 +194,12 @@ footer{
 }
 .seccionAbout{
     margin: 50px 50px;
+}
+
+.seccionAbout p{
+    color: rgb(206, 253, 255);
+}
+
+h1{
+    width: 100%;
 }
