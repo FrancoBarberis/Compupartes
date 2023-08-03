@@ -109,11 +109,14 @@ main{
     padding-top: 10px;
     height: 150px;
     width: 150px;
+    align-self: center;
 }
 .nombreProducto{
+    padding-top: 13px;
     color: white;
     align-self: center;
     font-size: 15px;
+    text-align: center;
 }
 button{
     background-color: skyblue;
@@ -234,6 +237,7 @@ footer{
     justify-content: center;
     border: 3px white double;
     margin: 10px;
+    box-sizing:content-box;
 }
 
 .comprar {
@@ -243,4 +247,12 @@ footer{
 .intro{
     margin-bottom: 30px;
     margin-top: 20px;
+}
+
+.row{
+    justify-content: center;
+}
+
+.seccionProducto{
+    margin-top: 100px;
 }
