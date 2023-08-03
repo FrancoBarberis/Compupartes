@@ -55,8 +55,8 @@ a{
 .logo{
     width: 10rem;
     padding-top: 5px;
-    padding-bottom: 5px;
     padding-left: 5px;
+    border: double 5px black;
 }
 
 main{
@@ -68,7 +68,7 @@ main{
     color: rgb(146, 136, 248);
     height: 100%;
     text-align: center;
-
+    margin-top: 100px;
 }
 
 .imagenIntro{
@@ -78,11 +78,6 @@ main{
 .textoIntro{
     font-size: 35px;
     color: rgb(206, 253, 255);
-}
-.seccionIntro{
-    height: auto;
-    justify-content: center;
-    align-items: center;
 }
 
 .boxProductos{
@@ -133,12 +128,13 @@ button{
 }
 
 .redSocial{
-    padding-inline: 35px;
+    padding-inline: 25px;
     background-color: white;
     border-radius: 30px;
     border-style: double;
     border-color: rgb(146, 136, 248);
     color: black;
+    justify-self: center;
 }
 footer{
     display: flex;
@@ -227,5 +223,9 @@ footer{
 }
 
 .container-fluid{
-    margin-bottom: 30px;
+    margin-bottom: 5px;
+}
+
+.boxProduct col-sm-12 col-md-6 col-lg-2{
+    align-self: center;
 }
