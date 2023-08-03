@@ -68,6 +68,7 @@ main{
     color: rgb(146, 136, 248);
     height: 100%;
     text-align: center;
+
 }
 
 .imagenIntro{
@@ -112,22 +113,23 @@ main{
 .imgProducto{
     padding-top: 10px;
     height: 150px;
-    width: 75%;
-    height: 75%;
+    width: 150px;
 }
 .nombreProducto{
     color: white;
+    align-self: center;
 }
 button{
     background-color: skyblue;
-    padding-bottom: 20px;
-    padding-top: 10px;
-    height: auto;
+    padding: 7px 7px 7px 7px;
+    border-radius: 20px;
+    align-self: center;
 }
 .precio{
     padding-bottom: 10px;
     padding-top: 10px;
     color: white;
+    align-self: center;
 }
 
 .redSocial{
@@ -220,6 +222,10 @@ footer{
     height: 150px;
 }
 
-.nav{
+.navbar{
     background-color: navy;
+}
+
+.container-fluid{
+    margin-bottom: 30px;
 }
