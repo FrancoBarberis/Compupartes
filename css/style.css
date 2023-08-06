@@ -12,9 +12,7 @@ body{
 
 header{
     width: 100%;
-    display: flex;
     background-color: black;
-    position: fixed;
     border-style: double;
     border-color: rgba(67, 31, 228, 0.534);
     border-width: 6px;
@@ -59,25 +57,12 @@ a{
     border: double 5px black;
 }
 
-main{
-    padding-top: 100px;
-    width: 100%;
-}
 .titulo{
     background-color: black;
     color: rgb(146, 136, 248);
     height: 100%;
     text-align: center;
     margin-top: 100px;
-}
-
-.imagenIntro{
-    height: 250px;
-}
-
-.textoIntro{
-    font-size: 35px;
-    color: rgb(206, 253, 255);
 }
 
 .boxProductos{
@@ -144,14 +129,16 @@ button{
     justify-self: center;
 }
 footer{
+    margin-top: 10px;
+    height: 8vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 20px;
     background-color: rgb(146, 136, 248);
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 5px ridge white;
+    border: 5px ridge black;
 }
 
 .mensajeLocales{
@@ -283,4 +270,15 @@ footer{
     border-style: ridge;
     padding: 3px;
     text-align: center;
+}
+
+
+.slide img {
+    height: 81vh;
+}
+
+
+/* AVERIGUAR COMO CENTRAR LA IMAGEN DENTRO DEL CARRUSEL */
+.imgCarrusel { 
+    width: 100%;
 }
