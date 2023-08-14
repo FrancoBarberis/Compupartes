@@ -123,10 +123,11 @@ button{
     background-color: white;
     border-radius: 30px;
     border-style: ridge;
-    border-color: rgb(1, 22, 39);
+    border-color: white;
     border-width: 5px;
     color: black;
     justify-self: center;
+    font-weight: 600;
 }
 footer{
     margin-top: 10px;
@@ -135,9 +136,9 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 20px;
-    background-color: rgb(146, 136, 248);
-    padding-top: 10px;
-    padding-bottom: 10px;
+    background-color: rgb(19, 14, 63);
+    padding-top: 20px;
+    padding-bottom: 20px;
     border: 5px ridge black;
 }
 
@@ -159,6 +160,7 @@ footer{
 }
 
 .datosMapbox{
+    width: auto;
     border-color: rgb(206, 253, 255);
     border-style: double;
     border-width: 5px;
@@ -173,7 +175,17 @@ footer{
 
 
 .mapa{
-    width: 600px;
+    width: 50%;
+    height: 600px;
+}
+
+.mensajeLocales{
+    color: white;
+    text-align: center;
+}
+
+.seccionLocales{
+    margin-bottom: 200px;
 }
 
 .seccionContacto{
@@ -214,6 +226,9 @@ footer{
     border: 5px rgb(1, 22, 39) solid;
 }
 
+.nav navbar{
+    background-color: rgb(1, 22, 39);
+}
 
 .navbar-nav {
     justify-content: space-evenly;
@@ -253,6 +268,11 @@ footer{
 
 .row{
     justify-content: center;
+    gap: 100px;
+}
+
+.row h3{
+    text-align:center;
 }
 
 .seccionProducto{
@@ -264,21 +284,28 @@ footer{
 }
 
 .collapse ul li{
-    background-color: rgb(146, 136, 248);
+    background-color: white;
     border-radius: 15px;
     border: white 5px ;
     border-style: ridge;
     padding: 3px;
     text-align: center;
+    font-weight: 700;
 }
 
 
 .slide img {
-    height: 81vh;
+    height: 71vh;
 }
 
+.carousel-inner{
+    width: 100%;
+}
 
+.carousel-inner img{
+    display:inline-block  !important;
+    }
 /* AVERIGUAR COMO CENTRAR LA IMAGEN DENTRO DEL CARRUSEL */
 .imgCarrusel { 
-    width: 100%;
+    
 }
