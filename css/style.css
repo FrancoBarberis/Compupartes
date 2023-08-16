@@ -160,12 +160,10 @@ footer{
 }
 
 .datosMapbox{
-    width: auto;
     border-color: rgb(206, 253, 255);
     border-style: double;
     border-width: 5px;
     background-color: rgb(128, 98, 214);
-    margin: 50px;
 }
 
 .datosMapbox h3{
@@ -174,9 +172,15 @@ footer{
 }
 
 
-.mapa{
+.mapa {
     width: 50%;
-    height: 600px;
+    height: 100%;
+    padding: 20px;
+}
+
+.seccionMapa div {
+    justify-content: space-around;
+    margin-inline: 10px;
 }
 
 .mensajeLocales{
