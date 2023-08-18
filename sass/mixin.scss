@@ -1,0 +1,8 @@
+@mixin anclas{
+    color: white;
+    text-decoration: none;
+}
+
+.a{
+    @include anclas();
+}
