@@ -6,10 +6,6 @@
     outline: none;
 }
 
-body {
-    background-color: rgb(1, 22, 39);
-}
-
 nav {
     display: flex;
     width: 100%;
