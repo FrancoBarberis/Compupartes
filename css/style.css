@@ -110,26 +110,15 @@ button {
     color: rgb(206, 253, 255);
 }
 
-.mapbox {
-    display: flex;
-    padding: 50px 50px 50px 50px;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.mapbox h3 {
-    color: rgb(206, 253, 255);
-}
-
 .datosMapbox {
-    border-color: rgb(206, 253, 255);
+    border-color: white;
     border-style: double;
     border-width: 5px;
-    background-color: rgb(128, 98, 214);
+    background-color: rgba(189, 167, 41, 0.822);
 }
 
 .datosMapbox h3 {
-    color: rgb(206, 253, 255);
+    color: black;
     padding: 10px 10px 10px 10px;
 }
 
@@ -231,7 +220,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 3px white double;
+    border: 5px rgba(189, 167, 41, 0.822) solid;
     margin: 10px;
     height: 350px;
 }
@@ -239,6 +228,7 @@ main{
 .comprar {
     border: 3px white double;
     font-weight: bolder;
+    background-color: rgba(189, 167, 41, 0.822);
 }
 
 .intro {
