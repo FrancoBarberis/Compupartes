@@ -187,7 +187,7 @@ button {
 }
 .mensajeAbout {
     font-size: larger;
-    color: rgb(235, 218, 30);
+    color: rgba(255, 255, 255, 0.995);
     text-align: center;
     padding: 30px;
     font-weight: 800;
