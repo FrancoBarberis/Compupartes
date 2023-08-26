@@ -1,20 +1,32 @@
 footer {
-  margin-top: 10px;
-  height: 8vh;
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
-  background-color: rgb(19, 14, 63);
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border: 5px ridge black;
+  background: rgb(173, 122, 9);
+  background: linear-gradient(41deg, rgb(173, 122, 9) 12%, rgb(129, 87, 27) 73%, rgb(191, 132, 53) 100%);
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 30px;
+}
+footer .redSocial {
+  background-color: black;
+  color: gold;
 }
 
 header {
   width: 100%;
+  background: rgb(227, 156, 47);
+  background: radial-gradient(circle, rgb(227, 156, 47) 44%, rgb(0, 0, 0) 100%);
+  margin-bottom: 30px;
+}
+
+.a {
+  color: white;
+  text-decoration: none;
+}
+
+body {
   background-color: black;
-  border-style: double;
-  border-color: rgba(67, 31, 228, 0.534);
-  border-width: 6px;
 }/*# sourceMappingURL=estilo.css.map */
