@@ -171,6 +171,9 @@ button {
 }
 
 .seccionAbout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 50px 50px;
     height: 63vh;
     background-image: url(../img/fondoAbout.webp);
@@ -179,11 +182,16 @@ button {
     background-color: black;
 }
 
+.cajaAbout{
+    max-width: 60vw;
+}
 .mensajeAbout {
-    color: rgb(211, 211, 78);
+    font-size: larger;
+    color: rgb(235, 218, 30);
     text-align: center;
     padding: 30px;
     font-weight: 800;
+    fon
 }
 
 main{
