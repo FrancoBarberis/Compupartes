@@ -21,6 +21,9 @@ header {
   background: radial-gradient(circle, rgb(227, 156, 47) 44%, rgb(0, 0, 0) 100%);
   margin-bottom: 30px;
 }
+header .collapse ul li:hover {
+  background-color: gold;
+}
 
 .a {
   color: white;

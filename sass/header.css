@@ -3,4 +3,11 @@ header {
   background: rgb(227, 156, 47);
   background: radial-gradient(circle, rgb(227, 156, 47) 44%, rgb(0, 0, 0) 100%);
   margin-bottom: 30px;
+}
+header .collapse ul li {
+  transition: all 1.5s;
+}
+header .collapse ul li:hover {
+  background-color: gold;
+  color: black;
 }/*# sourceMappingURL=header.css.map */
