@@ -9,8 +9,22 @@ footer {
     height: fit-content;
     border-radius: 30px;
 
-    .redSocial{
+    .redSocial {
+        padding-top: 3vh;
+        padding-inline: 25px;
+        border-radius: 30px;
+        justify-self: center;
+        font-weight: 600;
         background-color: black;
-        color: gold;
+        border-style: solid;
+        border-color: black;
+        border-width: 5px;
+        border color: gold;
+        transition: all 1s;
+    }
+
+    .redSocial:hover {
+        background-color: gold;
+        color: black;
     }
 }

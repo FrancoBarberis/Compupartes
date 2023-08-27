@@ -12,5 +12,11 @@ footer {
 }
 footer .redSocial {
   background-color: black;
+  border-color: black;
   color: gold;
+  transition: all 1s;
+}
+footer .redSocial:hover {
+  background-color: gold;
+  color: black;
 }/*# sourceMappingURL=footer.css.map */
