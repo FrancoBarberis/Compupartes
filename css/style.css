@@ -267,10 +267,21 @@ main {
     padding: 3px;
     text-align: center;
     font-weight: 700;
+    font-size: 1.2rem;
 }
 
 .slide img {
-    height: 71vh;
+    width: 100vw;
+    height: auto;
+}
+
+.carousel-caption p {
+    font-size: 25px;
+}
+
+.tituloSlide{
+    font-size: 5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .seccionCarrusel {
@@ -307,7 +318,7 @@ main {
     background: goldenrod;
     border-radius: 100%;
     border: solid white 3px;
-    width: 40vw;
+    width: calc(fit-content+30px);
     height: 500px;
     transition: all 1s ease;
 }
@@ -328,6 +339,7 @@ main {
 .cajaIndex p {
     color: white;
     text-align: center;
+    max-width: 50%;
     margin: 20px;
     font-size: 2rem;
     font-weight: 700;
