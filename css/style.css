@@ -135,10 +135,11 @@ button {
     height: fit-content;
     padding: 50px 50px 50px 50px;
     display: flex;
-    border: 5px double white;
+    align-items: center;
+    border: 5px double gold;
     border-radius: 30px;
     margin: 20px 20px;
-    background-color: goldenrod;
+    background-color: rgb(246, 243, 243);
 }
 
 .contacto p {
@@ -303,30 +304,32 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgb(0, 0, 0);
-    background: radial-gradient(circle, rgba(0, 0, 0, 1) 50%, rgba(214, 159, 39, 1) 78%);
+    background: goldenrod;
     border-radius: 100%;
+    border: solid white 3px;
     width: 40vw;
     height: 500px;
     transition: all 1s ease;
 }
 
 .cajaIndex:hover {
-    background: rgb(214, 159, 39);
-    background: radial-gradient(circle, rgba(214, 159, 39, 1) 32%, rgba(0, 0, 0, 1) 80%);
-
-    .cajaIndex h2 {
-        color: black;
-    }
+    background:rgb(248, 223, 85);
+    border-radius: 50%;
+    
 }
 
 .cajaIndex h2 {
     color: white;
     text-align: center;
+    font-weight: 700;
+    font-size: 3rem;
 }
 
 .cajaIndex p {
     color: white;
     text-align: center;
     margin: 20px;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
