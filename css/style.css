@@ -123,10 +123,7 @@ button {
 .mensajeLocales {
     color: goldenrod;
     text-align: center;
-}
-
-.seccionLocales {
-    margin-bottom: 200px;
+    top-10
 }
 
 
@@ -346,3 +343,11 @@ main {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+h1{
+    text-align: center;
+    font-weight: 400;
+    font-size: 4rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', cursive, sans-serif;
+    margin-bottom: 30px;
+    color: goldenrod;
+}
