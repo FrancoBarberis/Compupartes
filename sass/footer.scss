@@ -10,7 +10,8 @@ footer {
     border-radius: 30px;
 
     .redSocial {
-        padding-top: 3vh;
+        margin-block: 10px;
+        padding-block: 10px;
         padding-inline: 25px;
         border-radius: 30px;
         justify-self: center;
@@ -19,7 +20,6 @@ footer {
         border-style: solid;
         border-color: black;
         border-width: 5px;
-        border color: gold;
         transition: all 1s;
     }
 
