@@ -123,16 +123,17 @@ button {
 .mensajeLocales {
     color: goldenrod;
     text-align: center;
-    top-10
+    font-size: 6vw;
 }
 
 
 .contacto {
-    width: 700px;
+    width: 65vw;
     height: fit-content;
     padding: 50px 50px 50px 50px;
     display: flex;
     align-items: center;
+    justify-content:space-evenly;
     border: 5px double gold;
     border-radius: 30px;
     margin: 20px 20px;
@@ -141,8 +142,8 @@ button {
 
 .contacto p {
     color: black;
-    font-weight: 700;
-    padding: 10px 10px;
+    font-weight: 400;
+    font-size: 2rem;
 }
 
 .imgContacto {
@@ -151,9 +152,6 @@ button {
     padding-left: 20px;
 }
 
-.contacto p {
-    font-size: 30px;
-}
 
 .seccionAbout {
     display: flex;
