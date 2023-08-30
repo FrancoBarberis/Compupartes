@@ -166,20 +166,21 @@ button {
 }
 
 .cajaAbout {
-    max-width: 60vw;
+    width: 80vw;
+    max-height: fit-content;
 }
 
 .cajaAbout p {
     margin-top: 30px;
-    color: white;
+    color: gold;
     text-align: center;
     font-size: larger;
     font-weight: 300;
 }
 
 .mensajeAbout {
-    font-size: larger;
-    color: rgba(255, 255, 255, 0.995);
+    font-size: 3rem;
+    color: goldenrod;
     text-align: center;
     padding: 30px;
     font-weight: 800;
