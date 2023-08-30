@@ -110,7 +110,7 @@ button {
 
 
 .mapa {
-    width: 50%;
+    width: 100%;
     height: 100%;
     padding: 20px;
 }
@@ -124,6 +124,15 @@ button {
     color: goldenrod;
     text-align: center;
     font-size: 6vw;
+}
+
+.gmap_canvas{
+    width: 100%;
+    align-self: center;
+    justify-content: center
+}
+
+.gmap_canvas iframe{
 }
 
 
