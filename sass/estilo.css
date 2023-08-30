@@ -17,6 +17,7 @@ footer {
   border-radius: 30px;
 }
 footer .redSocial {
+  color: white;
   margin-block: 10px;
   padding-block: 10px;
   padding-inline: 25px;
