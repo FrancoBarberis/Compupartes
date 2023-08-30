@@ -1,1 +1,5 @@
 @import  "variables","body","footer", "header", "mixin";
+
+*{
+    overflow-x: hidden;
+}

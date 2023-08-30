@@ -1,18 +1,21 @@
 body {
   background-color: black;
-  width: 100%;
+  width: 100vw;
   height: 100%;
 }
 
 footer {
-  margin-top: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
   background: rgb(173, 122, 9);
   background: linear-gradient(41deg, rgb(173, 122, 9) 12%, rgb(129, 87, 27) 73%, rgb(191, 132, 53) 100%);
-  height: -moz-fit-content;
   height: fit-content;
 }
 footer .redSocial {
@@ -50,4 +53,8 @@ header .collapse ul li:hover {
 .a {
   color: white;
   text-decoration: none;
+}
+
+* {
+  overflow-x: hidden;
 }/*# sourceMappingURL=estilo.css.map */

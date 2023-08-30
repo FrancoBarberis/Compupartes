@@ -163,20 +163,24 @@ button {
 
 
 .seccionAbout {
-    display: flex;
-    justify-content: center;
+    display: block;
     align-items: center;
-    margin: 50px 50px;
-    height: 63vh;
+    height: 80vh;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.imgAbout{
+    height: 600px;
     background-image: url(../img/fondoAbout.webp);
-    background-size: contain;
+    background-position: center;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-size: cover;
 }
 
 .cajaAbout {
-    width: 80vw;
-    max-height: fit-content;
+    width: 100%;
+    height: fit-content;
 }
 
 .cajaAbout p {
