@@ -317,6 +317,7 @@ main {
 
 .cajaIndex {
     display: flex;
+    overflow-y: hidden;
     flex-direction: column;
     justify-content: center;
     align-items: center;
