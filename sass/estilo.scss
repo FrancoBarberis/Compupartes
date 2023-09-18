@@ -1,5 +1,9 @@
-@import  "variables","body","footer", "header", "mixin";
+@import  "variables","body","footer", "header", "mixin", "about", "producto", "locales", "index", "contacto";
 
 *{
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
 }

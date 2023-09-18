@@ -1,5 +1,27 @@
-body{
+body {
     background-color: $fondo;
     width: 100vw;
     height: 100%;
+
+    .row {
+        justify-content: center;
+        gap: 100px;
+    }
+
+    .row h3 {
+        text-align: center;
+    }
+
+    main {
+        margin-bottom: 100px;
+    }
+
+    h1 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 4rem;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', cursive, sans-serif;
+        margin-bottom: 30px;
+        color: goldenrod;
+    }
 }
